@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto ao corpo da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    background-image: url(img/background-body.webp); /* Adicione sua imagem aqui como fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Cor verde com transparência para o cabeçalho */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 50px 20px; /* Espaçamento interno no cabeçalho */
+}
+
+header h1 {
+    margin: 0; /* Remove margens do título principal */
+}
+
+.btn {
+    background-color: white; /* Fundo branco para os botões */
+    color: #4CAF50; /* Texto verde para os botões */
+    padding: 10px 20px; /* Espaçamento interno nos botões */
+    text-decoration: none; /* Remove sublinhado dos links */
+    border-radius: 5px; /* Bordas arredondadas nos botões */
+    transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse sobre o botão */
+}
+
+.btn:hover {
+    background-color: #f1f1f1; /* Muda a cor de fundo ao passar o mouse sobre o botão */
+}
+
+.destaque {
+    font-size: 1.2em; /* Aumenta o tamanho do texto destacado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.centralizado {
+    text-align: center; /* Centraliza o texto das seções */
+}
+
+.janela-destaque {
+    background-color: rgba(224, 247, 250, 0.9); /* Fundo claro com transparência para as janelas de destaque */
+    border-radius: 10px; /* Bordas arredondadas nas janelas */
+    padding: 20px; /* Espaçamento interno nas janelas */
+    margin: 20px auto; /* Margem vertical e centraliza horizontalmente */
+    max-width: 800px; /* Limita a largura das janelas a 800 pixels */
+}
+
+.janela-destaque h2 {
+    margin-top: 0; /* Remove margem superior do título dentro da janela */
+}
+
+#beneficios {
+    display: flex; /* Utiliza flexbox para organizar os benefícios (ainda que agora em coluna) */
+}
+
+.beneficios-container {
+    display: flex; /* Flexbox para os benefícios */
+    flex-direction: column; /* Altera a direção para coluna (um abaixo do outro) */
+    align-items: center; /* Centraliza os itens horizontalmente dentro da coluna */
+}
+
+.beneficio {
+    background-color: rgba(224, 247, 250, 0.9); /* Cor de fundo das janelas dos benefícios com transparência */
+    border-radius: 10px; /* Bordas arredondadas nas janelas dos benefícios */
+    padding: 20px; /* Espaçamento interno nas janelas dos benefícios */
+    margin: 10px 0; /* Espaçamento externo entre as janelas (vertical) */
+    width: 100%; /* Faz com que as janelas ocupem toda a largura disponível na coluna */
+    max-width: 800px; /* Limita a largura das janelas dos benefícios a 800 pixels */
+}
+
+.beneficio h3 {
+   margin-top: 0; /* Remove margem superior do título dentro da janela dos benefícios */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Cor escura com transparência para o rodapé */
+    color: white; /* Texto branco no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 20px; /* Espaçamento interno no rodapé */
+}
+
+footer form {
+    margin-top: 10px; /* Margem superior no formulário do rodapé */
+}
+
+footer input[type=email] {
+    padding: 10px; /* Espaçamento interno no campo de email do formulário */
+}
+
+footer button {
+    padding: 10px 20px; /* Espaçamento interno no botão do formulário do rodapé */
+}
+
+footer .destaque {
+   font-size: 1.2em; /* Aumenta o tamanho do texto do botão no rodapé */
+   font-weight: bold; /* Deixa o texto em negrito no botão do rodapé */
+}
